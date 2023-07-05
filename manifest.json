@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Chromium Files",
+    "description": "Brings chromimums file explorer to life with a modern interface",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["file:///*"],
+            "css": [
+                "styles/colors.css",
+                "styles/styles.css"
+            ],
+            "js": [
+                "scripts/jquery-3.6.3.min.js",
+                "scripts/constants.js",
+                "scripts/utils.js",
+                "content.js"
+            ]
+        }
+    ]
+}

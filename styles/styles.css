@@ -1,0 +1,63 @@
+* {
+    font-family: 'Mona-Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    color: var(--slate-300);
+}
+
+body {
+    background-color: var(--zinc-900);
+    padding: 30px 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    /* table-layout: fixed; */
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+th:first-child {
+    text-align: left;
+}
+
+tbody tr {
+    border-spacing: 15px;
+}
+
+td {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+td:first-child {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+td:first-child svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+th:last-child,
+td:last-child {
+    text-align: right;
+}
+
+td.detailsColumn:last-child {
+    font-size: 16px;
+}
+
+td.modified {
+    color: var(--slate-400);
+}
