@@ -9,7 +9,7 @@ if(tableHeaders.length !== EXPECTED_COLS) {
     console.warn('Files extension expects the table to have 3 colummns ["Name, "Size", "Date modified"]');
 } else {
 
-    // $('body').empty(); // hide original content
+    $('body').empty(); // hide original content
 
     console.log(tableHeaders);
     console.log(tableData);
