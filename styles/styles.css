@@ -54,10 +54,8 @@ td:last-child {
     text-align: right;
 }
 
-td.detailsColumn:last-child {
-    font-size: 16px;
-}
-
-td.modified {
+td:not(:first-child) {
     color: var(--slate-400);
+    font-weight: 300;
+
 }
