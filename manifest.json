@@ -5,7 +5,7 @@
     "version": "0.1",
     "content_scripts": [
         {
-            "matches": ["file:///*"],
+            "matches": ["file:///*/"],
             "css": [
                 "styles/colors.css",
                 "styles/styles.css"
